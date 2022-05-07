@@ -1,0 +1,82 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: #03A062;
+    background-image: url("matrix.gif");;
+}
+
+.encabezado{
+    padding-bottom: 5%;
+    }
+
+.logo{
+    margin: 40px 40px 40px 40px;
+    
+}
+
+.titulo {
+    position: absolute;
+    right: 0;
+    font-size: 32px;
+    font-family: fantasy;
+    text-shadow: 2px 0px #05d883;
+    margin: 40px 40px 0 0;
+}
+
+.titulo:hover{
+    text-shadow: 5px 5px #03a061af;
+}
+
+main{
+    align-content: center;
+    margin: 0 0 0 5em;
+}
+
+.area1{
+    width: 600px;
+    height: 700px;
+    display: inline-flex;
+    
+}
+
+.area1 textarea{
+    border: 0px;
+    color: #03A062;
+    background-color: rgba(138, 135, 135, 0.562);
+    font-size: 32px;
+    font-weight: bolder;
+    border-radius: 0.5em;
+    
+}
+
+
+.area2{
+    width: 600px;
+    height: 700px;
+    margin-left: 20em;
+    display: inline-flex;
+}
+
+.area2 textarea{
+    border: 0px;
+    color: #03A062;
+    background-color: rgba(138, 135, 135, 0.562);
+    font-size: 32px;
+    border-radius: 0.5em;
+}
+
+footer{
+    background-color: rgba(143, 142, 142, 0.541);
+}
+
+.pie{
+   
+    margin: 5em 0px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+
+   
+}
+
