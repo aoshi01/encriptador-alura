@@ -3,7 +3,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: black;
     color: #03A062;
-    background-image: url("matrix.gif");;
+    
 }
 
 .encabezado{
@@ -31,6 +31,7 @@ body{
 main{
     align-content: center;
     margin: 0 0 0 5em;
+    flex-wrap: wrap;
 }
 
 .area1{
@@ -42,20 +43,56 @@ main{
 
 .area1 textarea{
     border: 0px;
-    color: #03A062;
-    background-color: rgba(138, 135, 135, 0.562);
+    color: #03a025;
+    background-color: rgba(240, 240, 240, 0.651);
     font-size: 32px;
     font-weight: bolder;
     border-radius: 0.5em;
+    background-image: url("matrix.gif");
+}
+
+textarea::placeholder{
+    color: #06f595;
     
 }
 
+.btnPrincipal{
+    display: inline-flexbox;    
+}
+
+.btnPrincipal button{
+    width: 120px;
+    height: 350px;
+    display: flexbox;
+    background-color: black;
+    box-shadow: 5px 5px #05d883;
+    color: #06f595;
+    font-size: 13px;
+    border-radius: 0 5px 5px 0;
+}
+
+.btnPrincipal button:hover{
+   
+    background-color: rgb(34, 34, 34);
+    box-shadow: 5px 5px #07fd9b;
+    color: #06f595;
+    font-size: 14px;
+}
+
+.btnPrincipal button:active{
+   
+    background-color: #06f595;
+    color: #06f595;
+    font-size: 14px;
+    border: none;
+}
 
 .area2{
     width: 600px;
     height: 700px;
     margin-left: 20em;
     display: inline-flex;
+    
 }
 
 .area2 textarea{
@@ -64,6 +101,16 @@ main{
     background-color: rgba(138, 135, 135, 0.562);
     font-size: 32px;
     border-radius: 0.5em;
+    background-image: url("matrix.gif");
+}
+
+.btnCopiar{
+    display: flexbox;
+    background-color: black;
+    box-shadow: 5px 5px #05d883;
+    color: #06f595;
+    font-size: 13px;
+    border-radius: 0 5px 5px 0;
 }
 
 footer{
