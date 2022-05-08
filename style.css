@@ -43,7 +43,7 @@ main{
 
 .area1 textarea{
     border: 0px;
-    color: #03a025;
+    color: #06f595;
     background-color: rgba(240, 240, 240, 0.651);
     font-size: 32px;
     font-weight: bolder;
@@ -97,7 +97,7 @@ textarea::placeholder{
 
 .area2 textarea{
     border: 0px;
-    color: #03A062;
+    color: #06f595;
     background-color: rgba(138, 135, 135, 0.562);
     font-size: 32px;
     border-radius: 0.5em;
@@ -111,6 +111,24 @@ textarea::placeholder{
     color: #06f595;
     font-size: 13px;
     border-radius: 0 5px 5px 0;
+}
+
+.btnCopiar:hover{
+
+    background-color: rgb(34, 34, 34);
+    box-shadow: 5px 5px #07fd9b;
+    color: #06f595;
+    font-size: 14px;
+
+}
+
+.btnCopiar:active{
+
+    background-color: #06f595;
+    color: #06f595;
+    font-size: 14px;
+    border: none;
+
 }
 
 footer{
