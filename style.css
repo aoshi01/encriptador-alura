@@ -10,18 +10,19 @@ body{
     padding-bottom: 5%;
     }
 
-.logo{
-    margin: 40px 40px 40px 40px;
-    
+.logo{  
+
+   margin: 40px;
+ 
 }
 
 .titulo {
     position: absolute;
     right: 0;
-    font-size: 32px;
-    font-family: fantasy;
+    font-size: 90px;
     text-shadow: 2px 0px #05d883;
-    margin: 40px 40px 0 0;
+    margin: 40px 40px 40px 40px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .titulo:hover{
@@ -35,9 +36,10 @@ main{
 }
 
 .area1{
-    width: 600px;
-    height: 700px;
+    width: 500px;
+    height: 600px;
     display: inline-flex;
+    margin-left: 100px;
     
 }
 
@@ -62,7 +64,7 @@ textarea::placeholder{
 
 .btnPrincipal button{
     width: 120px;
-    height: 350px;
+    height: 299px;
     display: flexbox;
     background-color: black;
     box-shadow: 5px 5px #05d883;
@@ -88,8 +90,8 @@ textarea::placeholder{
 }
 
 .area2{
-    width: 600px;
-    height: 700px;
+    width: 500px;
+    height: 600px;
     margin-left: 20em;
     display: inline-flex;
     
@@ -131,13 +133,11 @@ textarea::placeholder{
 
 }
 
-footer{
-    background-color: rgba(143, 142, 142, 0.541);
-}
+
 
 .pie{
    
-    margin: 5em 0px;
+    margin: 2em 0px;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
@@ -145,3 +145,6 @@ footer{
    
 }
 
+@media screen(max) {
+    
+}
